@@ -22,13 +22,13 @@ var api = new ParseServer({
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
   },
   appName: 'waboo',
-  publicServerURL: 'https://waboo.kerokuapp.com/parse',
+  publicServerURL: 'https://xxxxx.kerokuapp.com/parse',
   emailAdapter: { 'parse-server-simple-mailgun-adapter',
   // The address that your email come from
   options: {
-    fromAddress:'postmaster@app82f5079118be4c0094b7679c0175553f.mailgun.org'
-    doman: 'app82f5079118be4c0094b7679c0175553f.mailgun.org',
-    apiKey: 'key-adc15d0b0f48e77e81c6a13db4c1818a',
+    fromAddress:'postmaster@xxxxx.xxxxx.org'
+    doman: 'xxxx.xxxxx.org',
+    apiKey: 'xxxx-xxx',
     }
   }
 });
